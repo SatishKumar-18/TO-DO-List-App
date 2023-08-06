@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>To-Do</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="task-input">
+            <i class="ri-bar-chart-horizontal-line"></i>
+            <input type="text" placeholder="Add a task">
+            <!-- <button class="save-btn">Save</button> -->
+        </div>
+        <div class="controls">
+            <div class="filters">
+                <span id="all" class="active">All</span>
+                <span id="completed">Completed</span>
+                <span id="pending">Pending</span>
+            </div>
+            <button class="clear-btn">Clear All</button>
+        </div>
+        <ul class="task-box"></ul>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
